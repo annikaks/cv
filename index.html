@@ -1,91 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Annika's Personal Site</title>
-</head>
-
-<body>
-  <table cellspacing = 20>
-    <tr>
-      <! -- pictures -->
-      <td><img class="fit-picture" src="images\Annika-Singh-69-modified.png" alt="Annika Singh Headshot" width="250" height="250"></td>
-      <! -- heading/intro -->
-      <td><h1> Annika Kaul Singh </h1>
-        <p> <em> <a href="https://www.cs.washington.edu/"> Computer Science </a> Undergrad at the <strong> University of Washington. </strong> </em> </p>
-        <p> <em> Reseracher for the Autonomous Flight Systems Laboratory <strong> (AFSL) </strong> </em> </p>
-      </td>
-    </tr>
-  </table>
-
-  <hr size = 2 noshade>
-
-  <! -- Education details -->
-  <h3>Education</h3>
-  <p>University of Washington CS Class of 2026</p>
-  <p>Interlake High School Class of 2022</p>
-    <ul>
-      <li>School Graduation Speaker</li>
-      <li>Student Body President (20-21, 21-22)</li>
-      <li>Class President (19-21)</li>
-      <li>DECA, National Honor Society Club Officer</li>
-    </ul>
-  <hr size = 2 noshade>
-
-  <! -- Work Experience -->
-  <h3>Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2022</td>
-        <td>Interlake High School Student Body President</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>AFSL Intern</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size = 2 noshade>
-
-  <! -- Skills -->
-  <h3>Skils</h3>
-  <table cellspacing = 10>
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Proficiency</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Coding</td>
-        <td>★★★★★</td>
-      </tr>
-      <tr>
-        <td>Writing</td>
-        <td>★★★★☆</td>
-      </tr>
-      <tr>
-        <td>Memorization</td>
-        <td>★★★☆☆</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size = 2 noshade>
+  <head>
+    <meta charset="utf-8">
+    <title>Annika Singh</title>
+    <link rel="stylesheet" tbody href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Merriweather&family=Permanent+Marker&family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- <div class="nav-bar">
+      <h3><a class="nav-text" href="https://www.linkedin.com/in/annika-k-singh/">Find me on LinkedIn</a></h3>
+    </div> -->
 
 
-  <h3><a href="hobbies.html">My Hobbies</a></h3>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I am Annika</h1>
+      <!-- <h2>a <span class="pro"> pro</span>grammer</h2> -->
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
-  <h3><a href="contact-info.html">Contact Me</a></h3>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="headshot" src="images/Annika-Singh-69-modified.png" alt="headshot" width="250" height="250">
+        <h2 class="hello">Hello.</h2>
+        <p class="intro">I am Annika Singh, welcome to my page. I am a undergraduate student at the Paul Allen School of Computer Science at the University of Washington.</p>
+      </div>
 
-</body>
+      <hr class="breaks">
 
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="coding" src="images/coding.jpg" alt="coding">
+          <h3>Coding</h3>
+          <p class="coding-text">I love coding and have been doing it since I was a freshman in high school. I am strongest in Java and Python, but I dabble in HTML and CSS.</p>
+        </div>
+        <div class="skill-row">
+          <img class="tkd" src="images/tkd.jpg" alt="tkd">
+          <h3>Tae Kwon Do</h3>
+          <p class="tkd-text">I have been practiving Korean Martial Arts for over a decade now. I am a third degree black-belt and compete often.</p>
+        </div>
+      </div>
+
+      <hr class="breaks">
+
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Reach out or find me elsewhere!</h3>
+        <p class="contact-msg">Feel free to email me, connect on LinkedIn or follow my Instagram</p>
+        <a class="btn" href="mailto:annikaks@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/annika-k-singh/">LinkedIn</a>
+      <a class="footer-link" href="https://www.instagram.com/annika_singhh/">Instagram</a>
+      <p class="copyright">© Annika Singh</p>
+    </div>
+
+
+  </body>
 </html>
